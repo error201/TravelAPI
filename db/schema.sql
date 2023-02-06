@@ -1,0 +1,2 @@
+DROP DATABASE IF EXITS travel_db;
+CREATE DATABASE travel_db;
