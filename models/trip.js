@@ -7,10 +7,11 @@ class Trip extends Model {}
 
 Trip.init({
     budget: {
-        type: DataTypes.FLOAT,
-        numTravellers: DataTypes.INTEGER,
-        travellerId: DataTypes
-    }
+        type: DataTypes.FLOAT
+    },
+    numTravellers: {
+        type: DataTypes.INTEGER
+    },
 },{
     sequelize
 });
